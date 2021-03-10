@@ -7,7 +7,7 @@ import { ProductResponseModel } from '../models/productResponseModel';
   providedIn: 'root'
 }) 
 export class ProductService {
-  apiUrl="https://localhost:44304/api/products/getall";
+  apiUrl="https://localhost:44304/api/products/getall";   
   constructor(private httpCliend:HttpClient) { } 
   
   getProducts():Observable<ProductResponseModel>{ 
