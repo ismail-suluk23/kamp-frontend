@@ -13,4 +13,4 @@ export class ProductService {
   getProducts():Observable<ProductResponseModel>{ 
    return this.httpCliend.get<ProductResponseModel>(this.apiUrl);
   }
-}
+} 
