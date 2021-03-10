@@ -11,7 +11,7 @@ export class ProductService {
   constructor(private httpCliend:HttpClient) { } 
   
   getProducts():Observable<ProductResponseModel>{ 
-   return this.httpCliend.get<ProductResponseModel>(this.apiUrl);    
+   return this.httpCliend.get<ProductResponseModel>(this.apiUrl);       
   }
 
 
