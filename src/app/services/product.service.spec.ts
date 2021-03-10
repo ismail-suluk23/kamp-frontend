@@ -5,7 +5,7 @@ import { ProductService } from './product.service';
 describe('ProductService', () => {
   let service: ProductService;
 
-  beforeEach(() => {
+  beforeEach(() => {    
     TestBed.configureTestingModule({});
     service = TestBed.inject(ProductService);
   });
