@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ProductResponseModel } from '../models/productResponseModel';
 
-@Injectable({
+@Injectable({  
   providedIn: 'root'
 })
 export class ProductService {
